@@ -1,0 +1,4 @@
+# configs
+.git/
+.vscode/
+.devcontainer/
