@@ -1,2 +1,0 @@
-import tulipy as tu
-
