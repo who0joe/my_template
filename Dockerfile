@@ -12,4 +12,3 @@ RUN python -m pip install --upgrade pip \
 # CMD python 
 
 CMD ["bash"]
-

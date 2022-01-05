@@ -1,6 +1,5 @@
 # vscode
-.vscode/
-.devcontainer/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -56,9 +55,6 @@ coverage.xml
 .pytest_cache/
 
 
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
