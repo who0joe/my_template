@@ -1,4 +1,20 @@
-# configs
+# build exclude when "ADD"
+
+# Customized
+README.md
+
+# git
 .git/
+.gitignore
+
+# docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# vscode
 .vscode/
 .devcontainer/
+
+# python
+__pycache__/
