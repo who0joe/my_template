@@ -1,0 +1,10 @@
+# https://github.com/debuerreotype/docker-debian-artifacts/blob/d5eb7c589d016973bce6f3e1827b5c315b7cefbc/bullseye/slim/Dockerfile
+
+# FROM scratch
+# ADD rootfs.tar.xz /
+# CMD ["bash"]
+
+# seems build directrly from debian_slim images
+
+FROM debian:bullseye-slim
+
