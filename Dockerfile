@@ -14,7 +14,9 @@ RUN apt update \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN python -m pip install --upgrade pip \
-    && pip install greenlet numpy psycopg2-binary SQLAlchemy tulipy
+    && pip install \
+	numpy psycopg2-binary SQLAlchemy tulipy \
+	pandas tables
 
 # to run with Python IDLE
 # CMD python 
