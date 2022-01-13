@@ -1,6 +1,6 @@
 # Python : vscode + docker
 
-> 코드 컨밴션 및 프로젝트 업데이트필 필요  
+> 코드 컨밴션 및 프로젝트 업데이트 필요
 > 
 
 ### Docker Environment
