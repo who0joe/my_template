@@ -15,8 +15,7 @@ RUN apt update \
 
 RUN python -m pip install --upgrade pip \
     && pip install \
-	numpy psycopg2-binary SQLAlchemy tulipy \
-	pandas tables
+	numpy pandas
 
 # to run with Python IDLE
 # CMD python 
