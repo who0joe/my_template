@@ -3,13 +3,12 @@ version: "3"
 services: 
   engine:
     platform: linux/amd64
-    image: hy_engine:v1
+    image: my_template:v1
     build:
       context: .
       dockerfile: Dockerfile
       args:
         buildno: 1
     volumes:
-      - ./results:/home/DockerSimulation/results
-      - ./UserInput.py:/home/DockerSimulation/UserInput.py
-    command: python main.py
+      - ./results:/home/results
+    command: bash
