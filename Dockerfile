@@ -15,7 +15,7 @@ RUN apt update \
 
 RUN python -m pip install --upgrade pip \
     && pip install \
-	numpy pandas
+	numpy pandas ipykernel
 
 # to run with Python IDLE
 # CMD python 

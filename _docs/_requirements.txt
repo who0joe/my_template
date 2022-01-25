@@ -1,0 +1,100 @@
+# pip install tstables > not support pandas lastest version (only supports0.19)
+# pip install git+https://github.com/yhilpisch/tstables.git
+
+
+
+# Data Handling: 10 ##################################
+
+# pip install numpy
+numpy
+
+# pip install pandas
+<numpy>
+pandas
+python-dateutil
+pytz
+six
+
+# pip install tables
+<pandas>
+numexpr
+packaging
+pyparsing
+tables
+
+# pip install tstables
+<tables>
+tstables
+
+# DB: 3 ##################################
+
+# pip install psycopg2-binary
+psycopg2-binary
+
+# pip install sqlalchemy
+greenlet
+SQLAlchemy
+
+# tulipy ##################################
+
+# pip install tulipy
+tulipy
+
+# FastAPI: 7 ##################################
+
+# pip install fastapi
+anyio
+fastapi
+idna
+pydantic
+sniffio
+starlette
+typing_extensions
+
+# uvicorn: 5 ##################################
+# 'colorama' seems only installed in windows version 
+
+# pip intall uvicorn
+asgiref
+click
+colorama
+h11
+uvicorn
+
+
+# ipykernel ##################################
+
+asttokens
+backcall
+black
+click
+debugpy
+decorator
+entrypoints
+executing
+ipykernel
+ipython
+jedi
+jupyter-client
+jupyter-core
+matplotlib-inline
+mypy-extensions
+nest-asyncio
+parso
+pathspec
+pexpect
+pickleshare
+platformdirs
+prompt-toolkit
+ptyprocess
+pure-eval
+pygments
+python-dateutil
+pyzmq
+six 
+stack-data
+tomli
+tornado
+traitlets
+typing-extensions
+wcwidth

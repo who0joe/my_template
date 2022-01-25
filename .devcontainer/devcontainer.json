@@ -14,6 +14,7 @@
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
+		"pkief.material-icon-theme",
 		"ms-python.python",
 		"ms-vscode.cpptools",
 		"ms-python.vscode-pylance",

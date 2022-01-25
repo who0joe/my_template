@@ -12,6 +12,10 @@
     ```powershell
     ./env/Scripts/activate
     ```
+    ```bash
+    source ./env/bin/activate
+    ```
+
 
 - 가상환경종료: 가상환경안에선 어떤 경로든지 상관없음
     ```powershell
